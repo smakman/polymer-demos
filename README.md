@@ -1,11 +1,13 @@
-# Hello world
+## Hello world
 
-``cd hello && npm install && bower install``
+``
+cd hello && npm install && bower install
+gulp watch
+``
 
-``gulp watch``
+## Polymer Start Kit
 
-# Polymer Start Kit
-
-``cd polymer-start-kit && npm install && bower install``
-
-``gulp serve``
+``
+cd polymer-start-kit && npm install && bower install
+gulp serve
+``
