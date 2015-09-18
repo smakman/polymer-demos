@@ -1,0 +1,37 @@
+[{
+    "id": "0",
+    "title": "Hello world",
+    "messages": [{
+        "user": "Jurjen",
+        "text": "Hey Low, did you get your slides ready for Polymer Summit?"
+    }, {
+        "user": "Lowie",
+        "text": "Who me? You know I'm always prepared early for these things."
+    }, {
+        "user": "Dirk-Jan",
+        "text": "Figures, you're a pro.  Me? Finished last night in the hotel. LOL"
+    }],
+    "lastMessage": "Figures, you're a pro.  Me? Finished last night in the hotel. LOL"
+}, {
+    "id": "1",
+    "title": "Lorem ipsum",
+    "messages": [{
+        "user": "Jurjen",
+        "text": "Do you know if there's there an emoji for hot sauce?"
+    }, {
+        "user": "Lowie",
+        "text": "Hmmm, dunno.  Ask the emojineer on the team, she'll know."
+    }],
+    "lastMessage": "Hmmm, dunno.  Ask the emojineer on the team, she'll know."
+}, {
+    "id": "2",
+    "title": "Dolor sit amet",
+    "messages": [{
+        "user": "Dirk-Jan",
+        "text": "I can't believe how easy it is to add a backend to Polymer using Firebase.  You did a killer job on that element."
+    }, {
+        "user": "Lowie",
+        "text": "Thanks, man.  I agree, it's an awesome combination."
+    }],
+    "lastMessage": "Thanks, man.  I agree, it's an awesome combination."
+}]
