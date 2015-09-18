@@ -2,6 +2,7 @@
 
 ``
 cd hello && npm install && bower install
+
 gulp watch
 ``
 
@@ -9,5 +10,6 @@ gulp watch
 
 ``
 cd polymer-start-kit && npm install && bower install
+
 gulp serve
 ``
