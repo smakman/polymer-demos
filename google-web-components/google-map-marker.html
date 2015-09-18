@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+
+  <script src="components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <title>Polymer Google Map</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="import" href="components/google-map/google-map.html">
+  <link rel="import" href="components/google-map/google-map-marker.html">
+
+  <style>
+  google-map {
+    height: 600px;
+  }
+  </style>
+
+</head>
+<body>
+
+	<google-map latitude="52.368181" longitude="4.934798" zoom="15"
+	            language="en" libraries="places">
+	  <google-map-marker latitude="52.368181" longitude="4.934798"
+	                     title="Diffuse HQ" draggable="true">
+	  </google-map-marker>
+	</google-map>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <title>Google Web Components</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="components/paper-item/paper-item.html">
+  <link rel="import" href="components/paper-item/paper-icon-item.html">
+  <link rel="import" href="components/paper-item/paper-item-body.html">
+  <link rel="import" href="components/paper-styles/paper-styles.html">
+
+  <style is="custom-style">
+    body {
+      font-family: 'Helvetica Neue', helvetica, arial;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: 0;
+      padding: 50px;
+      background: #fafafa;
+    }
+
+		.list {
+      padding-top: 12px;
+      background-color: white;
+      display: inline-block;
+      width: 300px;
+      height: 228px;
+      margin: 12px;
+      @apply(--shadow-elevation-2dp);
+    }
+
+    .short {
+      padding-top: 12px;
+      height: 216px;
+    }
+
+    h4 {
+      margin-left: 24px;
+    }
+
+    a {
+    	text-decoration: none;
+    }
+
+    a:hover {
+    	text-decoration: hover;
+    }
+  </style>
+</head>
+<body unresolved>
+  <h1>Google Web Component Examples</h1>
+  <div class="layout wrap inline center-center">
+    <div>
+      <h4>Google Maps</h4>
+      <div class="list short">
+        <paper-item><a href="/google-map.html">Google Map</a></paper-item>
+        <paper-item><a href="/google-map-marker.html">Google Map with marker</a></paper-item>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
