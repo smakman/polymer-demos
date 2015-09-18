@@ -5,9 +5,9 @@ cd hello && npm install && bower install
 gulp watch
 ````
 
-## Polymer Start Kit
+## Polymer Starter Kit
 
 ````
-cd polymer-start-kit && npm install && bower install
+cd polymer-starter-kit && npm install && bower install
 gulp serve
 ````
